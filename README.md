@@ -53,7 +53,7 @@ node-red  | 28 Aug 14:29:00 - [info] Started flows
 ```
 ทดสอบเข้าด้วยการเปิด web browser ผ่าน http://127.0.0.1:1880/
 
-![์nodered](https://github.com/manaprae/node-red/blob/main/1787904747686.jpg)
+![node-red](https://github.com/manaprae/node-red/blob/main/1787902689653.jpg)
 
 แต่ระบบยังไม่มี แต่ยังไม่มี Authentication
 
@@ -89,5 +89,5 @@ save แล้ว exit
 ```bash
 docker compose restart
 ```
-![login](https://github.com/manaprae/node-red/blob/main/1787902689653.jpg)
+![์Login](https://github.com/manaprae/node-red/blob/main/1787904747686.jpg)
 
