@@ -73,7 +73,8 @@ vi /data/settings.js
 ```
 ค้นหาบรรทัดนี้ ที่ ขึ้นต้นด้วย adminAuth: { 
 แล้วแก้ไขตามนี้
-```    adminAuth: {
+```
+adminAuth: {
         type: "credentials",
         users: [{
             username: "admin",
