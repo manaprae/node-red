@@ -1,0 +1,17 @@
+services:
+  node-red:
+    image: nodered/node-red
+    container_name: node-red
+    user: "root:root"
+    restart: unless-stopped
+    environment:
+      - TZ=Asia/Bangkok
+    ports:
+      - 1880:1880
+    volumes:
+      - ./data:/data
+    command: 'npm install -g --unsafe-perm node-red node-red-admin'
+
+
+
+
